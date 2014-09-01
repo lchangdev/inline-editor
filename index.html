@@ -12,6 +12,7 @@
     <div id="main" ng-click="hideTooltip()">
       <!-- ng-click directive allows custom behavior when element is clicked -->
       <!-- on click run hideToolTip() function -->
+      <!-- when clicking anywhere other than the the tooltip div hide tooltip -->
       <div class="tooltip" ng-click="$event.stopPropagation()" ng-show="showtooltip">
         <!-- showtooltip boolean variable set within controller -->
         <input type="text" ng-model="value" />

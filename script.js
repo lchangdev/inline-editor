@@ -6,6 +6,7 @@ function InlineEditorController($scope) {
   $scope.showtooltip = false;
   $scope.value = 'Edit me.';
 
+  // helper functions
   $scope.hideTooltip = function(){
     $scope.showtooltip = false;
   }
